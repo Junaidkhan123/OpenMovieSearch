@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OpenMovieSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Search " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adv-FF-6dH">
+                                <rect key="frame" x="16" y="44" width="343" height="48"/>
+                                <color key="backgroundColor" red="0.1635380385902524" green="0.29175261573050038" blue="0.5" alpha="0.70358032979999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="82z-py-i1q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" red="0.99207025770000001" green="0.99221223589999996" blue="0.99203914400000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" placeholder="Enter the Title of Movie" translatesAutoresizingMaskIntoConstraints="NO" id="ncl-Rm-6WH">
+                                <rect key="frame" x="0.0" y="105" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="DND-g9-ywF"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7tl-sh-p9X">
+                                <rect key="frame" x="67" y="173" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="kOl-Rl-5Xu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ci-CR-XG7">
+                                <rect key="frame" x="16" y="402" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dCv-QT-71x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icm-Pa-pvf">
+                                <rect key="frame" x="16" y="450" width="343" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Zhb-Kg-NqD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ure-xJ-hzf">
+                                <rect key="frame" x="16" y="502" width="343" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="a9v-xT-gwO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvw-Af-Elx">
+                                <rect key="frame" x="16" y="552" width="343" height="107"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5ci-CR-XG7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3k0-WB-DoI"/>
+                            <constraint firstItem="5ci-CR-XG7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5WF-Cu-MRj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7tl-sh-p9X" secondAttribute="trailing" constant="92" id="84Q-6c-KPf"/>
+                            <constraint firstItem="ncl-Rm-6WH" firstAttribute="top" secondItem="adv-FF-6dH" secondAttribute="bottom" constant="13" id="A7g-qs-U9h"/>
+                            <constraint firstItem="7tl-sh-p9X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="DIq-lB-5od"/>
+                            <constraint firstItem="ure-xJ-hzf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="GTs-xP-6PL"/>
+                            <constraint firstItem="adv-FF-6dH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="HoD-OU-Mu3"/>
+                            <constraint firstItem="Dvw-Af-Elx" firstAttribute="top" secondItem="ure-xJ-hzf" secondAttribute="bottom" constant="8" id="JMV-0Z-gwh"/>
+                            <constraint firstAttribute="trailing" secondItem="ncl-Rm-6WH" secondAttribute="trailing" id="QrL-th-IcC"/>
+                            <constraint firstItem="adv-FF-6dH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RRk-00-z7x"/>
+                            <constraint firstItem="icm-Pa-pvf" firstAttribute="top" secondItem="5ci-CR-XG7" secondAttribute="bottom" constant="8" id="RY1-lO-whf"/>
+                            <constraint firstItem="Dvw-Af-Elx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Y9u-Fc-Rf0"/>
+                            <constraint firstItem="5ci-CR-XG7" firstAttribute="top" secondItem="7tl-sh-p9X" secondAttribute="bottom" constant="29" id="Ysr-hZ-Sp7"/>
+                            <constraint firstItem="icm-Pa-pvf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ZSo-Q2-a4Q"/>
+                            <constraint firstItem="icm-Pa-pvf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aaE-cg-evL"/>
+                            <constraint firstItem="ure-xJ-hzf" firstAttribute="top" secondItem="icm-Pa-pvf" secondAttribute="bottom" constant="8" id="dtn-CW-c5y"/>
+                            <constraint firstItem="Dvw-Af-Elx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eRh-IF-wvn"/>
+                            <constraint firstItem="ncl-Rm-6WH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hXV-3g-UoH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dvw-Af-Elx" secondAttribute="bottom" constant="8" id="oFp-FT-nbe"/>
+                            <constraint firstItem="adv-FF-6dH" firstAttribute="centerX" secondItem="ncl-Rm-6WH" secondAttribute="centerX" id="rfc-Du-Ht8"/>
+                            <constraint firstItem="7tl-sh-p9X" firstAttribute="top" secondItem="ncl-Rm-6WH" secondAttribute="bottom" constant="24" id="sOW-Dr-aFo"/>
+                            <constraint firstItem="ure-xJ-hzf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="w2J-nS-gFf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="actors" destination="Dvw-Af-Elx" id="Dft-eU-gua"/>
+                        <outlet property="director" destination="icm-Pa-pvf" id="Nbs-yd-QUr"/>
+                        <outlet property="movieImage" destination="7tl-sh-p9X" id="y6J-F6-kES"/>
+                        <outlet property="movieTitle" destination="5ci-CR-XG7" id="yZ0-Jl-EdM"/>
+                        <outlet property="rating" destination="ure-xJ-hzf" id="OIO-cc-6AG"/>
+                        <outlet property="titleSerarch" destination="ncl-Rm-6WH" id="zoE-vk-umL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-34.399999999999999" y="-48.125937031484263"/>
+        </scene>
+    </scenes>
+</document>
